@@ -1,0 +1,13 @@
+{
+  "name": "version-control-testing-demo",
+  "version": "1.0.0",
+  "description": "Simple calculator project demonstrating Git, GitHub, Jest testing and CI/CD.",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
